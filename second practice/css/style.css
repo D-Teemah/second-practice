@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation p{
+    margin-left: 30px;
+}
+.navigation a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.button-top{
+    color: blue;
+    border-color:rgb(58, 58, 241);
+    border-radius: 10px;
+    padding: 20px 80px;
+    background-color: white;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px 80px 0px 80px; */
+    /* align-items: center; */
+    background-color:rgb(247, 245, 245);
+}
+.left-upper{
+    margin-left: 150px;
+    width: 30%
+}
+.left-upper h2{
+    font-size: 50px;
+}
+.left-upper button{
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 20px 100px;
+    border-radius: 10px;
+}
+.right-upper img{
+    width: 550px;
+    margin-right: 150px;
+
+}
+
+.second-upper{
+   text-align: center;
+   margin: 0px 150px;
+
+}
+.second-upper h3{
+    font-size: 35px;
+}
+.second-upper-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-layer{
+    margin:300px 150px 0px 150px;
+}
+.third-layer-upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-layer-images{
+    /* background-color: black; */
+    position: relative;
+}
+.two{
+    position: absolute;
+    top: 0px;
+    left:360px;  
+}
+.two img{
+    width: 690px;
+}
+.three{
+    position: absolute;
+    top: 290px;
+    left:360px;  
+}
+.three img{
+    height: 345px;
+    width: 330px;
+}
+.four{
+    position: absolute;
+    top: 290px;
+    left: 700px;
+}
+.five{
+   position: absolute;
+   top:645px;
+}
+.five img{
+    width: 690px;
+}
+.six{
+    position: absolute;
+    top: 950px;
+    left: 700px;
+}
+.six img{
+
+}
+
+.Artists{
+    margin:900px 150px 0px 150px;
+
+}
+.Artists-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Artists-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fifth-layer{
+    height:1400px;
+    background-color: rgb(133, 133, 255);
+    margin-top: 200px;
+    position: relative;
+    z-index: -2;
+}
+.image{
+    margin: 20px 150px;
+    /* visibility: visible; */
+    position: absolute;
+    z-index:-1;
+}
+.blue-text{
+    margin:0px 250px;
+    padding-top: 50px;
+    font-size: 25px;
+    width: 350px;
+}
+.cards{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    padding: 30px;
+}
+.cardss{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    padding: 30px;
+}
+.cardsss{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    position: absolute;
+    top: 500px;
+    right: 200px;
+    padding: 30px;
+}
+
+.sixth{
+    position: absolute;
+    top: 900px;
+    right: 220px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.textsss{
+    display: flex;
+}
+.bit-texts{
+    padding-right: 30px;
+}
+
+.seventh{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.seventh button{
+    border: none;
+    color: white;
+    background-color: rgb(101, 101, 253);
+    padding: 20px 100px;
+    border-radius: 10px;
+}
+.eighth{
+    display: flex;
+    justify-content: space-between;
+    margin: 250px 100px 50px 100px ;
+}
